@@ -67,17 +67,17 @@ func main() {
 	//////////////////////////Setup Database////////////////////////////////////////
 
 	const (
-		host     = "localhost"
-		port     = 5432
-		user     = "postgres"
-		password = "root"
-		// password = "pass@123"
-		dbname = "ha_f"
-		// host     = "hahudatabase.cluster-ciuxzlrsiqkq.eu-west-2.rds.amazonaws.com"
+		// host     = "localhost"
 		// port     = 5432
 		// user     = "postgres"
-		// password = "passwordhahu"
-		// dbname   = "hahudatabase"
+		// password = "root"
+		// // password = "pass@123"
+		// dbname = "ha_f"
+		host     = "hahudatabase.cluster-ciuxzlrsiqkq.eu-west-2.rds.amazonaws.com"
+		port     = 5432
+		user     = "postgres"
+		password = "passwordhahu"
+		dbname   = "hahudatabase"
 	)
 
 	psqlInfo := fmt.Sprintf("host=%s port=%d user=%s "+
