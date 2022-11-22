@@ -77,7 +77,7 @@ func main() {
 		port     = 5432
 		user     = "postgres"
 		password = "passwordhahu"
-		dbname   = "hahudatabase"
+		dbname   = "postgres"
 	)
 
 	psqlInfo := fmt.Sprintf("host=%s port=%d user=%s "+
@@ -755,7 +755,7 @@ func main() {
 	//1000015823856
 
 	server := http.Server{
-		Addr: ":5002",
+		Addr: ":5003",
 		// Addr:         ":" + os.Getenv("PORT"),
 		Handler:      accessControl(sh),
 		IdleTimeout:  120 * time.Second,
