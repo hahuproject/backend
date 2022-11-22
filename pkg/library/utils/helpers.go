@@ -11,7 +11,7 @@ import (
 var (
 	AUTH_URL_DEV       = "http://localhost:5000/auth/me"
 	AUTH_URL_PROD      = "https://hahu-sms.herokuapp.com/auth/me"
-	AUTH_URL_LOCAL     = "http://192.168.2.222:5002/auth/me"
+	AUTH_URL_LOCAL     = "http://18.134.74.142:5003/auth/me"
 	AUTH_URL_TEGBAREED = "http://10.3.120.6:5000/auth/me"
 	AUTH_URL_VPS       = "http://18.134.74.142:5000/auth/me"
 )
